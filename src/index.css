@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+padding: 0 0 100px 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  margin: 90px 237px 0 237px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+header button {
+  width: 118px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f35f2f;
+  opacity: 75%;
+  color: aliceblue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+li:hover {
+  color: #f35f2f;
+}
+
+.cont {
+  display: flex;
+  margin: 106px 83px 0 211px;
+}
+
+.cont h1 {
+  color: #3D3D3F;
+  font-size: 72px;
+  font-style: normal;
+
+  line-height: normal;
+  margin: 0 0 42px 0;
+  font-family: 'Rubik';
+  font-weight: 500;
+}
+
+.cont b {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Rubik';
+
+}
+
+.cont button {
+  font-family: 'Rubik';
+
+  width: 218px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f35f2f;
+  opacity: 75%;
+  color: aliceblue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cont div {
+  margin: 40px 0 0 0;
+}
+
+h1 {
+  width: 100%;
+  margin: auto;
+  margin:0 0 55px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block2 {
+  display: flex;
+  width: 1170px;
+  height: 314px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 2px solid rgba(235, 235, 235, 0.80);
+  border-radius: 17px;
+  padding: 0 35px 0 35px;
+}
+
+.txt {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #3D3D3F;
+  margin: 23px 0 13px 0;
+
+}
+
+.txt2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+  color: #3D3D3F;
+}
+
+.line{width: 2px;
+  height: 242px;
+  background: rgba(235, 235, 235, 0.80);
+  }
